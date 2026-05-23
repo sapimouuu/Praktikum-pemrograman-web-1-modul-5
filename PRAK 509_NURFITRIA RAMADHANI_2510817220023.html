@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <p>Klik tombol berikut untuk menampilkan konfirmasi</p> [cite: 182]
+  <button onclick="myFunction()">Klik Disini</button> // disesuaikan dari gambar halaman 5
+  <p id="demo"></p> // disesuaikan dari gambar halaman 5
+
+  <script>
+    function myFunction() { 
+      var x; 
+      var name = prompt("Silahkan masukkan nama anda", "Galot Nehabdua"); // sesuai gambar halaman 5 [cite: 190]
+      
+      if (name != null) { 
+        x = "Selamat Datang " + name + " bagaimana kabar anda hari ini?"; // sesuai gambar halaman 5 [cite: 193, 194]
+        document.getElementById("demo").innerHTML = x; // sesuai gambar halaman 5 [cite: 195]
+      }
+    }
+  </script>
+</body>
+</html>
