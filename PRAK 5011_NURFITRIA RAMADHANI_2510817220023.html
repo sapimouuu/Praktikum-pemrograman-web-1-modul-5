@@ -1,18 +1,24 @@
-<!DOCTYPE html>
 <html>
 <body>
-  <h1>Latihan Javascript</h1> [cite: 230]
-  <p>Silahkan masukkan angka</p> [cite: 231]
-  <input id="demo" type="text"> [cite: 232]
-  <button type="button" onclick="myFunction()">Cek Angka</button> [cite: 267]
+
+  <h1>Latihan Javascript</h1>
+
+  <p>Silahkan masukkan angka</p>
+
+  <input id="demo" type="text">
 
   <script>
-    function myFunction() {
+    function myFunction()
+    {
       var x = document.getElementById("demo").value;
-      if (x == "" || isNaN(x)) { 
+      if (x == "" || isNaN(x))
+        { 
         alert("Bukan angka");
-      }
+        }
     }
   </script>
+
+  <button type="button" onclick="myFunction()">Cek Angka</button>
+
 </body>
 </html>
